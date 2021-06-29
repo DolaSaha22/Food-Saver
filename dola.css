@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head{
+    height: 100vh;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.8),rgba(0,0,0,0.8)), url('https://hospitalityinsights.ehl.edu/hubfs/Blog-EHL-Insights/Blog-Header-EHL-Insights/AdobeStock_264542845.jpeg');
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+        display: flex;
+        padding: 40px 120px;
+}
+.nav-logo img{
+        width: 130px;   
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display:inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 25px;
+}
+.nav-links ul a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(102, 128, 50);
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-links .btn{
+    float: right;
+}
+.banner-title{
+    margin: 80px 130px;
+    color:white;
+    text-align: left;
+}
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.banner-title h1 span{
+    color: rgb(106, 143, 33);
+}
